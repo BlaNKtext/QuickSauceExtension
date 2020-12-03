@@ -1,0 +1,21 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "/g/ extension",
+  "author": "BlaNK",
+  "version": "1.0",
+  "description": "Get to the good shit, and quick",
+  "manifest_version": 2,
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [ "script.js" ]
+  },
+  "browser_action": {
+    "default_icon": {
+      "128": "g.png"
+    },
+    "default_title": "You can only use me on nhentai.net"
+  }
+}
